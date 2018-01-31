@@ -15,6 +15,6 @@ tar czf vim.tar.gz .vimrc .vim .bashrc_prompt
 ## Install
 
 ```
-wget https://github.com/5bpa/v/raw/master/v/v.sh
+wget https://github.com/5bpa/v/raw/master/v.sh
 bash v.sh
 ```
