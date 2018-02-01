@@ -38,10 +38,9 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'xuyuanp/nerdtree-git-plugin'
-Plugin 'yggdroot/indentline'
-Plugin 'bronson/vim-trailing-whitespace'
+"Plugin 'yggdroot/indentline'
+"Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'sukima/xmledit'
-Plugin 'saltstack/salt-vim'
 call vundle#end()
 
 map ,n :NERDTree<CR>
