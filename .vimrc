@@ -15,14 +15,14 @@ set ignorecase      " 찾기에서 대/소문자를 구별하지 않음
 set incsearch       " 점진적으로 찾기
 set autowrite       " :next 나 :make 같은 명령를 입력하면 자동으로 저장
 set title			" 타이틀바에 현재 편집중인 파일을 표시
-set colorcolumn=120
+"set colorcolumn=120
 
-"set expandtab  " Enabled in filetype python plugin
+set expandtab  " Enabled in filetype python plugin
 set softtabstop=4
 set tabstop=4       " <Tab> 간격
 set shiftwidth=4    " 자동 들여쓰기 간격
 set modeline
-set nu              " 라인 넘버
+"set nu              " 라인 넘버
 set fileencoding=utf-8
 if has("syntax")
   syntax on
@@ -40,7 +40,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 "Plugin 'yggdroot/indentline'
 "Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'sukima/xmledit'
+"Plugin 'sukima/xmledit'
 call vundle#end()
 
 map ,n :NERDTree<CR>
@@ -61,22 +61,22 @@ let g:airline#extensions#branch#displayed_head_limit = 10
 let g:airline#extensions#branch#format = 1
 "let g:airline#extensions#branch#format = 2
 let g:airline#extensions#whitespace#enabled = 0
-let g:airline_theme = 'powerlineish'
+"let g:airline_theme = 'powerlineish'
 
-set updatetime=250
+"set updatetime=250
 
 " Italic comment
 " See http://askubuntu.com/questions/492592/can-i-get-italics-in-gnome-terminal
-set t_ZH=[3m
-set t_ZR=[23m
-highlight Comment gui=italic cterm=italic
+"set t_ZH=[3m
+"set t_ZR=[23m
+"highlight Comment gui=italic cterm=italic
 
 " Indent line color
 " https://github.com/Yggdroot/indentLine
-let g:indentLine_enabled = 1
-let g:indentLine_color_term = 239
+"let g:indentLine_enabled = 1
+"let g:indentLine_color_term = 239
 
-au BufNewFile,BufRead *.yaml,*.yml,*.sls so ~/.vim/yaml.vim
+"au BufNewFile,BufRead *.yaml,*.yml,*.sls so ~/.vim/yaml.vim
 
 " Force using the Django template syntax file
-let g:sls_use_jinja_syntax = 1
+"let g:sls_use_jinja_syntax = 1
