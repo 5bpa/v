@@ -14,7 +14,6 @@ if [ "${install_prompt}" == "n" ]; then
 else
 
 	cat << HEREDOC >> ~/.bashrc
-
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
@@ -34,7 +33,6 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
 HEREDOC
 fi
 
