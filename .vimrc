@@ -36,11 +36,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'airblade/vim-gitgutter'
 Plugin 'xuyuanp/nerdtree-git-plugin'
-"Plugin 'yggdroot/indentline'
-"Plugin 'bronson/vim-trailing-whitespace'
-"Plugin 'sukima/xmledit'
 call vundle#end()
 
 map ,n :NERDTree<CR>
@@ -63,20 +59,7 @@ let g:airline#extensions#branch#format = 1
 let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_theme = 'powerlineish'
 
-"set updatetime=250
-
-" Italic comment
-" See http://askubuntu.com/questions/492592/can-i-get-italics-in-gnome-terminal
-"set t_ZH=[3m
-"set t_ZR=[23m
-"highlight Comment gui=italic cterm=italic
-
-" Indent line color
-" https://github.com/Yggdroot/indentLine
-"let g:indentLine_enabled = 1
-"let g:indentLine_color_term = 239
-
-"au BufNewFile,BufRead *.yaml,*.yml,*.sls so ~/.vim/yaml.vim
+au BufNewFile,BufRead *.yaml,*.yml,*.sls so ~/.vim/yaml.vim
 
 " Force using the Django template syntax file
-"let g:sls_use_jinja_syntax = 1
+let g:sls_use_jinja_syntax = 1
