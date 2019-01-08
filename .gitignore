@@ -1,1 +1,2 @@
-.vim/
+*.sw[po]
+vim.tar.gz
