@@ -1,10 +1,3 @@
-## Repackaging
-```
-tar xzf vim.tar.gz
-(... doing something...)
-tar czf vim.tar.gz .vimrc .vim .bashrc_prompt
-```
-
 ## Build
 
 ```
