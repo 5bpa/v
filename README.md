@@ -29,7 +29,4 @@ bash v.sh
 * 'vim-airline/vim-airline-themes'
 * 'airblade/vim-gitgutter'
 * 'xuyuanp/nerdtree-git-plugin'
-* 'yggdroot/indentline'
 * 'bronson/vim-trailing-whitespace'
-* 'sukima/xmledit'
-* 'saltstack/salt-vim'

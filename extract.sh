@@ -1,6 +1,6 @@
 #/bin/bash
 
-echo -n "Install vim plugins ... "
+echo -n "Install vim plugins to $(echo ~)/.vim ... "
 
 sed '0,/^#EOF#$/d' "$0" | tar zx -C ~
 

@@ -1,6 +1,4 @@
-" ---- language-env DON'T MODIFY THIS LINE!
-set nocompatible    " Vim 디폴트 기능들을 사용함
-set backspace=2     " 삽입 모드에서 백스페이스를 계속 허용
+" ---- language-env DON'T MODIFY THIS LINE! set nocompatible    " Vim 디폴트 기능들을 사용함 set backspace=2     " 삽입 모드에서 백스페이스를 계속 허용
 set autoindent      " 자동 들여쓰기
 set cindent         " C 언어 자동 들여쓰기
 set smartindent     " 역시 자동 들여쓰기
@@ -37,6 +35,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'bronson/vim-trailing-whitespace'
+Bundle "lepture/vim-jinja"
 call vundle#end()
 
 map ,n :NERDTree<CR>
@@ -57,7 +57,7 @@ let g:airline#extensions#branch#displayed_head_limit = 10
 let g:airline#extensions#branch#format = 1
 "let g:airline#extensions#branch#format = 2
 let g:airline#extensions#whitespace#enabled = 0
-"let g:airline_theme = 'powerlineish'
+" let g:airline_theme = 'powerlineish'
 
 au BufNewFile,BufRead *.yaml,*.yml,*.sls so ~/.vim/yaml.vim
 
