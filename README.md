@@ -14,6 +14,13 @@ wget https://github.com/5bpa/v/raw/master/v.sh
 bash v.sh
 ```
 
+For tmux
+```
+wget https://github.com/5bpa/v/raw/master/install_conf.sh
+bash install_conf.sh
+```
+
+
 ## Plugins
 
 * 'VundleVim/Vundle.vim'
