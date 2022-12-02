@@ -47,7 +47,7 @@ setw -g mode-keys vi
 set -g status-keys vi
 set -g history-limit 10000
 
-set -g default-terminal "screen-256color"
+#set -g default-terminal "screen-256color"
 
 #### WINDOW
 
@@ -90,12 +90,12 @@ set-option -g status-fg colour136 #yellow
 #set-option -g status-attr default
 
 # message text
-set-option -g message-bg colour235 #base02
-set-option -g message-fg colour166 #orange
+#set-option -g message-bg colour235 #base02
+#set-option -g message-fg colour166 #orange
 
-set -g window-status-current-bg white
-set -g window-status-current-fg black
-set -g window-status-current-attr bold
+#set -g window-status-current-bg white
+#set -g window-status-current-fg black
+#set -g window-status-current-attr bold
 set -g status-interval 60
 set -g status-left-length 30
 set -g status-left '#[fg=green](#S) #(hostname) |'
@@ -106,9 +106,3 @@ set -g status-right '#[default] #[fg=white]%H:%M#[default]'
 # Setting the delay between prefix and command
 #set -s escape-time 0
 set -sg escape-time 1
-
-# Mouse supprt
-#setw -g mode-mouse on
-#set -g mouse on
-
-#run-shell /home1/jaeswith/.usr/tmux-logging/logging.tmux
